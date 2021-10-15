@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #7a7a7a;
+    --secondary-color: rgba(122, 122, 122, 0.75);
+    --tertiary-color: rgb(76, 82, 109, 0.75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Courier, Monospace, Verdana;
+}
+
+/* HEADER STYLE */
+header {
+    padding: 20px 20px;
+    top: 0;
+    background-color: #faebd7;
+    background-image: url(../images/mexico-city.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 100;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    align-self: center;
+    margin: 20px 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 15px 0 15px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+header nav ul li a:hover {
+
+}
+/* HEADER STYLE ENDS */
+
+/* STYLE ALL SECTIONS */
+section {
+    padding: 50px;
+}
+/* END SECTION STYLING */
+
+/* HERO STYLE */
+.hero {
+    background-image: url(../images/mexico-city.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 500px;
+}
+.hero p {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 5px;
+}
+/* HERO STYLE ENDS */
+
+/* ABOUT STYLE */
+.about {
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: 80%;
+}
+
+.profile-pic img {
+    max-width: 40%;
+}
+/* ABOUT STYLE ENDS */
+
+/* PORTFOLIO STYLE */
+.portfolio {
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+/* PORTFOLIO STYLE ENDS */
+
+/* PHOTOGRAPHY STYLE */
+.photography {
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+/* PHOTOGRAPHY STYLE ENDS */
+
+/* CONTACT STYLE */
+.contact {
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+/* CONTACT STYLE ENDS */
+
+/* FOOTER STYLE */
+footer {
+    font-family: Monaco;
+}
+/* FOOTER STYLE ENDS*/
+
+/* MEDIA QUERY SMALLER DESKTOP - 980PX */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+}
+/* END MEDIA QUERY */
+
+/* MEDIA QUERY FOR MOBILE - 768PX AND 575PX */
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+
+}
+/* MEDIA QUERY ENDS */

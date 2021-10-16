@@ -89,7 +89,7 @@ section {
     height: 500px;
 }
 .hero p {
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255, 0.5);
     margin: 0 10vw 0 10vw;
     padding: 20px;
     border: 2px solid var(--tertiary-color);
@@ -125,23 +125,41 @@ section {
     background-position: 80%;
     border: 5px solid var(--primary-color);
 }
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .first-project {
-    display: flex;
     justify-content: center;
-
+    padding: 10%;
     border: 5px solid var(--primary-color);
     background-image: src="";
+    flex: 1;
+    flex-basis: 100%;
+}
 
+.other-projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .other-projects div {
     margin: 1%;
     border: 5px solid var(--primary-color);
-    width: 40vw;
-    display: flex;
+    flex: 1;
+    flex-basis: 50%;
 
 }
+
+/* .project-2 .project-3 {
+    flex: 1;
+} */
+
 /* PORTFOLIO STYLE ENDS */
 
 /* PHOTOGRAPHY STYLE */
@@ -151,6 +169,65 @@ section {
     background-position: 80%;
     border: 5px solid var(--primary-color);
 }
+
+.first-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/oaxaca-agave.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
+}
+
+.first-photo p, h3 {
+    background-color: rgb(240, 248, 255, 0.75);
+    margin: 0 5vw 0 5vw;
+    padding: 20px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 5px;
+}
+
+.second-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/mountains.jpeg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
+}
+
+.third-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/great-heights.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
+}
+
+.fourth-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/pe-sunset.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
+}
+
+.fifth-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/buzlugzah.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
+}
+.second-
 /* PHOTOGRAPHY STYLE ENDS */
 
 /* CONTACT STYLE */
@@ -164,6 +241,16 @@ section {
     background-attachment: fixed;
     background-position: 80%;
     border: 5px solid var(--primary-color);
+}
+
+.contact-photo {
+    justify-content: center;
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/staircase.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20%;
 }
 /* CONTACT STYLE ENDS */
 

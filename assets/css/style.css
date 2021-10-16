@@ -90,7 +90,7 @@ section {
 }
 .hero p {
     background-color: rgb(240, 248, 255, 0.5);
-    margin: 0 10vw 0 10vw;
+    margin: 20px 10vw 0 10vw;
     padding: 20px;
     border: 2px solid var(--tertiary-color);
     border-radius: 5px;
@@ -120,9 +120,6 @@ section {
 /* PORTFOLIO STYLE */
 .portfolio {
     margin: 10px 0 10px 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
     border: 5px solid var(--primary-color);
 }
 .projects {
@@ -145,7 +142,7 @@ section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: flex-start;
+    border: 5px solid var(--primary-color);
 }
 
 .other-projects div {
@@ -153,7 +150,8 @@ section {
     border: 5px solid var(--primary-color);
     flex: 1;
     flex-basis: 50%;
-
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 /* .project-2 .project-3 {
@@ -165,8 +163,6 @@ section {
 /* PHOTOGRAPHY STYLE */
 .photography {
     margin: 10px 0 10px 0;
-    background-attachment: fixed;
-    background-position: 80%;
     border: 5px solid var(--primary-color);
 }
 
@@ -180,54 +176,80 @@ section {
     padding: 20%;
 }
 
-.first-photo p, h3 {
+.photography p, h3 {
     background-color: rgb(240, 248, 255, 0.75);
-    margin: 0 5vw 0 5vw;
+    margin: 5vw 5vw 5vw 5vw;
     padding: 20px;
     border: 2px solid var(--tertiary-color);
     border-radius: 5px;
+    width: 40%;
+}
+
+.other-photos {
+    margin: 1%;
+    border: 5px solid var(--primary-color);
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    align-content: space-around;
+
 }
 
 .second-photo {
-    justify-content: center;
+    /* justify-content: center; */
     border: 5px solid var(--primary-color);
     background-image: url("../images/mountains.jpeg");
-    background-size: 105% 100%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20%;
+    /* align-content: space-between; */
+    height: 45%;
+    width: 45%;
+    margin: 1%;
 }
 
 .third-photo {
-    justify-content: center;
+    /* justify-content: center; */
     border: 5px solid var(--primary-color);
     background-image: url("../images/great-heights.jpg");
-    background-size: 105% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20%;
+    /* padding: 20%; */
+    /* align-content: space-around; */
+    height: 45%;
+    width: 45%;
+    margin: 1%;
 }
 
 .fourth-photo {
-    justify-content: center;
+    /* justify-content: center; */
     border: 5px solid var(--primary-color);
     background-image: url("../images/pe-sunset.jpg");
-    background-size: 105% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20%;
+    /* padding: 20%; */
+    /* align-content: space-around; */
+    height: 45%;
+    width: 45%;
+    margin: 1%;
 }
 
 .fifth-photo {
-    justify-content: center;
+    /* justify-content: center; */
     border: 5px solid var(--primary-color);
     background-image: url("../images/buzlugzah.jpg");
-    background-size: 105% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20%;
+    /* padding: 20%; */
+    /* align-content: space-around; */
+    height: 45%;
+    width: 45%;
+    margin: 1%;
 }
-.second-
+
 /* PHOTOGRAPHY STYLE ENDS */
 
 /* CONTACT STYLE */

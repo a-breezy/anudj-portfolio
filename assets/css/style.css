@@ -167,20 +167,23 @@ section {
 }
 
 .first-photo {
-    justify-content: center;
     border: 5px solid var(--primary-color);
     background-image: url("../images/oaxaca-agave.jpg");
     background-size: 105% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
 }
 
 .photography p, h3 {
     background-color: rgb(240, 248, 255, 0.75);
-    margin: 5vw 5vw 5vw 5vw;
-    padding: 20px;
-    border: 2px solid var(--tertiary-color);
+    margin: 2px;
     border-radius: 5px;
     width: 40%;
 }
@@ -192,60 +195,73 @@ section {
     flex-basis: 50%;
     flex-wrap: wrap;
     align-content: space-around;
-
+    justify-content: center;
 }
 
 .second-photo {
-    /* justify-content: center; */
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     background-image: url("../images/mountains.jpeg");
-    background-size: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    /* align-content: space-between; */
-    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
     width: 45%;
     margin: 1%;
 }
 
 .third-photo {
-    /* justify-content: center; */
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     background-image: url("../images/great-heights.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    /* padding: 20%; */
-    /* align-content: space-around; */
-    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
     width: 45%;
     margin: 1%;
 }
 
 .fourth-photo {
-    /* justify-content: center; */
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     background-image: url("../images/pe-sunset.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    /* padding: 20%; */
-    /* align-content: space-around; */
-    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
     width: 45%;
     margin: 1%;
 }
 
 .fifth-photo {
-    /* justify-content: center; */
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     background-image: url("../images/buzlugzah.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    /* padding: 20%; */
-    /* align-content: space-around; */
-    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
     width: 45%;
     margin: 1%;
 }

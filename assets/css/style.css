@@ -121,7 +121,8 @@ section {
 
 .profile-pic img {
     max-width: 40vw;
-
+    display: flex;
+    justify-content: center;
 }
 
 .profile-desc {
@@ -330,6 +331,7 @@ footer {
         position: relative;
     }
 
+
     header h1 {
         width: 100%;
     }
@@ -359,8 +361,20 @@ footer {
     .profile-pic {
         max-width: 100%;
     }
-
+    .hero h2 {
+        font-size: 36px;
+        margin: 20px;
+        color: rgba(245, 239, 239, 0.9);
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .hero p {
+        background-color: rgb(240, 248, 255, 0.75);
+        margin: 20px 5px 0 5px;
+        padding: 20px;
+        border: 2px solid var(--tertiary-color);
+        border-radius: 5px;
+    }
 }
-/* MEDIA QUERY ENDS */
+/* END MEDIA QUERY */
 
 

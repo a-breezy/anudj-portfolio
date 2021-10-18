@@ -113,16 +113,25 @@ section {
     border: 5px solid var(--primary-color);
 }
 
+
 .profile-pic img {
     max-width: 40vw;
-    border: 5px solid var(--primary-color);
+
 }
 
 .profile-desc {
-    box-sizing: content-box;
-    padding: 20%;
-    width: 50%;
+    /* box-sizing: content-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     border: 5px solid var(--primary-color);
+}
+
+.about h2, .about p {
+    width: 80%;
+    padding: 2%;
 }
 /* ABOUT STYLE ENDS */
 
@@ -132,7 +141,7 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.portfolio p, h3 {
+.portfolio p, .portfolio h3 {
     padding: 5%;
 }
 
@@ -145,12 +154,16 @@ section {
     align-content: space-around;
     align-items: center;
     justify-content: center;
+    height: 25vw;
+    width: 45%;
+    margin: 5px;
 }
 
 .first-project {
-    background-image: url(../images/oaxaca-agave.jpg);
-    background-size: 105% 100%;
+    background-image: url(../images/run-buddy.png);
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
@@ -158,12 +171,13 @@ section {
     align-content: space-around;
     align-items: center;
     justify-content: center;
-    padding: 15%;
+    width: 100%;
+    height: 50vw;
 }
+
 
 .other-projects {
     margin: 1%;
-    border: 5px solid var(--primary-color);
     display: flex;
     flex-basis: 50%;
     flex-wrap: wrap;
@@ -172,23 +186,23 @@ section {
 }
 
 .second-project {
-    background-image: url("../images/mountains.jpeg");
+    background-image: url("../images/staircase.jpg");
     background-size: 100%;
 }
 
 .third-project {
-    background-image: url("../images/great-heights.jpg");
+    background-image: url("../images/istanbul-mosque.jpg");
     background-size: 100%;
 }
 
 .fourth-project {
-    background-image: url("../images/pe-sunset.jpg");
+    background-image: url("../images/cappadocia.jpg");
     background-size: 100%;
     
 }
 
 .fifth-project {
-    background-image: url("../images/buzlugzah.jpg");
+    background-image: url("../images/tibilisi-market.jpg");
     background-size: 100%;
 } 
 /* PORTFOLIO STYLE ENDS */
@@ -214,7 +228,7 @@ section {
 }
 
 
-.photography h3, p {
+.photography h3, .photography p {
     padding: 3%;
 }
 
@@ -230,10 +244,6 @@ section {
     flex-direction: column;
     width: 100%;
     height: 50vw;
-}
-
-.first-photo p {
-    height: 10vw;
 }
 
 .other-photos {

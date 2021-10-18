@@ -22,6 +22,12 @@ body {
 .flex-row {
     display: flex;
 }
+
+h3, p {
+    background-color: rgb(240, 248, 255, 0.75);
+    margin: 2px;
+    border-radius: 5px;
+}
 /* UTILITIES STYLE ENDS */
 
 /* HEADER STYLE */
@@ -126,11 +132,8 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.portfolio .photography p, h3 {
-    background-color: rgb(240, 248, 255, 0.75);
-    margin: 2px;
-    border-radius: 5px;
-    width: 40%;
+.portfolio p, h3 {
+    padding: 5%;
 }
 
 .first-project, .second-project, .third-project, .fourth-project, .fifth-project {
@@ -142,7 +145,6 @@ section {
     align-content: space-around;
     align-items: center;
     justify-content: center;
-    padding: 15%;
 }
 
 .first-project {
@@ -188,44 +190,7 @@ section {
 .fifth-project {
     background-image: url("../images/buzlugzah.jpg");
     background-size: 100%;
-} */
-/* 
-.projects {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.first-project {
-    justify-content: center;
-    padding: 10%;
-    border: 5px solid var(--primary-color);
-    background-image: src="";
-    flex: 1;
-    flex-basis: 100%;
-}
-
-.other-projects {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border: 5px solid var(--primary-color);
-}
-
-.other-projects div {
-    margin: 1%;
-    border: 5px solid var(--primary-color);
-    flex: 1;
-    flex-basis: 50%;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
-/* .project-2 .project-3 {
-    flex: 1;
-} */
-
+} 
 /* PORTFOLIO STYLE ENDS */
 
 /* PHOTOGRAPHY STYLE */
@@ -234,7 +199,7 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.first-photo, .second-photo, .third-photo, .fourth-photo, .fifth-photo {
+.second-photo, .third-photo, .fourth-photo, .fifth-photo {
     border: 3px solid var(--primary-color);
     background-repeat: no-repeat;
     background-position: center;
@@ -243,25 +208,32 @@ section {
     align-content: space-around;
     align-items: center;
     justify-content: center;
-    padding: 15%;
     height: 25vw;
     width: 45%;
-    margin: 1px;
+    margin: 5px;
 }
 
 
-.photography p, h3 {
-    background-color: rgb(240, 248, 255, 0.75);
-    margin: 2px;
-    border-radius: 5px;
-    width: 40%;
+.photography h3, p {
+    padding: 3%;
 }
 
 .first-photo {
+    border: 3px solid var(--primary-color);
     background-image: url("../images/oaxaca-agave.jpg");
     background-size: 105% 100%;
-    flex: 1;
-    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vw;
+}
+
+.first-photo p {
+    height: 10vw;
 }
 
 .other-photos {
@@ -276,60 +248,21 @@ section {
 .second-photo {
     background-image: url("../images/mountains.jpeg");
     background-size: 100%;
-    height: 25vw;
-    width: 45%;
-    margin: 1%;
 }
 
 .third-photo {
-    /* border: 3px solid var(--primary-color); */
     background-image: url("../images/great-heights.jpg");
     background-size: 100%;
-    /* background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
-    height: 25vw;
-    width: 45%;
-    margin: 1%;
 }
 
 .fourth-photo {
-    /* border: 3px solid var(--primary-color); */
     background-image: url("../images/pe-sunset.jpg");
     background-size: 100%;
-    /* background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
-    height: 25vw;
-    width: 45%;
-    margin: 1%;
 }
 
 .fifth-photo {
-    /* border: 3px solid var(--primary-color); */
     background-image: url("../images/buzlugzah.jpg");
     background-size: 100%;
-    /* background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
-    height: 25vw;
-    width: 45%;
-    margin: 1%;
 }
 
 /* PHOTOGRAPHY STYLE ENDS */

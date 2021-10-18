@@ -1,5 +1,7 @@
 /* GET RID OF BORDERS WHEN  */
 
+
+/* UTILITY STYLE */
 :root {
     --primary-color: #7a7a7a;
     --secondary-color: rgba(122, 122, 122, 0.75);
@@ -16,6 +18,11 @@ body {
     font-family: Courier, Monospace, Verdana;
     text-align: center;
 }
+
+.flex-row {
+    display: flex;
+}
+/* UTILITIES STYLE ENDS */
 
 /* HEADER STYLE */
 header {
@@ -66,10 +73,6 @@ header nav ul li a {
     font-size: 1.5vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
-
-h2 {
-
-}
 /* HEADER STYLE ENDS */
 
 /* STYLE ALL SECTIONS */
@@ -100,9 +103,8 @@ section {
 
 /* ABOUT STYLE */
 .about {
-    margin: 10px 0 10px 0;
+    /* margin: 10px 0 10px 0; */
     border: 5px solid var(--primary-color);
-
 }
 
 .profile-pic img {
@@ -118,6 +120,110 @@ section {
 /* ABOUT STYLE ENDS */
 
 /* PORTFOLIO STYLE */
+.portfolio {
+    margin: 10px 0 10px 0;
+    border: 5px solid var(--primary-color);
+}
+
+.portfolio .photography p, h3 {
+    background-color: rgb(240, 248, 255, 0.75);
+    margin: 2px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.first-project {
+    border: 5px solid var(--primary-color);
+    background-image: url("../images/oaxaca-agave.jpg");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+}
+
+.other-projects {
+    margin: 1%;
+    border: 5px solid var(--primary-color);
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.second-project {
+    border: 3px solid var(--primary-color);
+    background-image: url("../images/mountains.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
+    width: 45%;
+    margin: 1%;
+}
+
+.third-project {
+    border: 3px solid var(--primary-color);
+    background-image: url("../images/great-heights.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
+    width: 45%;
+    margin: 1%;
+}
+
+.fourth-project {
+    border: 3px solid var(--primary-color);
+    background-image: url("../images/pe-sunset.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
+    width: 45%;
+    margin: 1%;
+}
+
+.fifth-project {
+    border: 3px solid var(--primary-color);
+    background-image: url("../images/buzlugzah.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vw;
+    width: 45%;
+    margin: 1%;
+}
 .portfolio {
     margin: 10px 0 10px 0;
     border: 5px solid var(--primary-color);
@@ -298,14 +404,6 @@ footer {
     font-family: Monaco;
 }
 /* FOOTER STYLE ENDS*/
-
-
-/* UTILITY STYLE */
-.flex-row {
-    display: flex;
-    justify-content: space-between;
-}
-/* UTILITIES STYLE ENDS */
 
 
 /* MEDIA QUERY SMALLER DESKTOP - 980PX */

@@ -118,11 +118,10 @@ section {
     border-top: var(--div-top-border);
 }
 
-
 .profile-pic img {
     max-width: 40vw;
-    display: flex;
-    justify-content: center;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .profile-desc {
@@ -134,9 +133,9 @@ section {
     border: 5px solid var(--primary-color);
 }
 
-.about h2, .about p {
-    width: 80%;
-    padding: 2%;
+.about p {
+    width: 91%;
+    padding-bottom: 50px;
 }
 /* ABOUT STYLE ENDS */
 
@@ -158,6 +157,7 @@ section {
     background-position: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: space-around;
     align-items: center;
     justify-content: center;
@@ -230,6 +230,7 @@ section {
     background-position: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: space-around;
     align-items: center;
     justify-content: center;
@@ -326,53 +327,116 @@ footer {
 /* MEDIA QUERY SMALLER DESKTOP - 980PX */
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+        flex-direction: column;
     }
 
+    header a {
 
-    header h1 {
-        width: 100%;
+        font-size: 1em;
     }
 
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
+
     }
 
     header nav ul li a {
         font-size: 20px;
     }
 
+    .hero h2 {
+        color: rgba(245, 239, 239, 0.9);
+    } 
 }
 /* END MEDIA QUERY */
 
 /* MEDIA QUERY FOR MOBILE - 768PX AND 575PX */
 @media screen and (max-width: 768px) {
-    .profile-pic {
-        max-width: 50%;
+    header
+    h2 {
+        font-size: 1em;
     }
-    
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .portfolio h3, .portfolio p, .photography h3, .photography h3 {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 575px) {
-    .profile-pic {
-        max-width: 100%;
+    p {
+        font-size: 14px;
     }
+    
     .hero h2 {
         font-size: 36px;
         margin: 20px;
         color: rgba(245, 239, 239, 0.9);
         text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
+    
     .hero p {
         background-color: rgb(240, 248, 255, 0.75);
         margin: 20px 5px 0 5px;
         padding: 20px;
         border: 2px solid var(--tertiary-color);
         border-radius: 5px;
+    }
+    
+    .profile-pic {
+        max-width: 100%;
+    }
+
+    .profile-desc {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .other-projects {
+        margin: 1%;
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .other-projects h3 {
+        font-size: 16px;
+    } 
+
+    .first-project, .second-project, .third-project, .fourth-project, .fifth-project {
+        border: 1px solid var(--primary-color);
+        height: 40vw;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .other-photos {
+        margin: 1%;
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+    }
+
+    .other-photos h3 {
+        font-size: 16px;
+    } 
+
+    .second-photo, .third-photo, .fourth-photo, .fifth-photo {
+        border: 1px solid var(--primary-color);
+        height: 40vw;
+        width: 100%;
+        margin: 5px;
     }
 }
 /* END MEDIA QUERY */

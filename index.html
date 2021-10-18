@@ -4,30 +4,28 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Ambrose Wilkinson and An Undefined Journey</title>
+        <title>An Undefined Journey</title>
     </head>
 
     <body>
         <!-- Navigation -->
         <header>
             <h1>
+                <a href="/">Ambrose Wilkinson<br/>An Undefined Journey</a>
             </h1>
             <nav>
                 <ul>
                     <li>
-                        <a href>Hero</a>
+                        <a href="#about-me">About</a>
                     </li>
                     <li>
-                        <a href>About</a>
+                        <a href="#my-portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href>Portfolio</a>
+                        <a href="#my-photography">Photography</a>
                     </li>
                     <li>
-                        <a href>Photography</a>
-                    </li>
-                    <li>
-                        <a href>Contact</a>
+                        <a href="#contact-me">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -35,26 +33,157 @@
         <!-- end header -->
         
         <!-- hero -->
-        <section>
+        <section class="hero">
+            <h2>Learning HTML, CSS, and JaveScript</h2>
+            <p>
+                Learning to code is just the beginning. The greater goal is to get out and see new things
+            </p>
         </section>
+        <!-- end hero -->
         
         <!-- about -->
-        <section>
+        <section id="about-me" class="about">
+            <div class="flex-row">               
+                <div class="profile-pic">
+                    <img src="./assets/images/polaroid-profile.JPG" alt="Picture of Ambrose on a polaroid photo." />
+                </div>
+                <div class="profile-desc">
+                    <h2>About Me</h2>
+                    <p><br /><br />
+                        Coding since 2021.<br />
+                        Photographing since 2018.
+                    </p>
+                </div>
+            </div>
         </section> 
+        <!-- end about -->
         
         <!-- portfolio -->
-        <section>
+        <section id="my-portfolio" class="portfolio">
+            <h2>Web Design/Development</h2>
+            
+            <!-- first project stretches the screen width -->
+
+            <div class="projects">
+                <a href="https://a-breezy.github.io/run-buddy/">
+                <div class="first-project">
+                <br />
+                    <h3>Run Buddy</h3>
+                    <br />
+                    <p>
+                        First HTML and CSS Project
+                    </p>
+                </div>
+                </a>
+                <!-- following projects are split into two object columns -->
+                <div class="other-projects">
+                    
+                    <!-- project 2 -->
+                    <div class="second-project">
+                        <h3>Project 2</h3>
+                        <p>
+                            PLACEHOLDER FOR PROJECT 2
+                        </p>
+                    </div>
+                   
+                    <!-- project 3 -->
+                    <div class="third-project">
+                        <h3>Project 3</h3>
+                        <p>
+                            PLACEHOLDER FOR PROJECT 3
+                        </p>
+                    </div>
+            
+                    <!-- project 4 -->
+                    <div class="fourth-project">
+                        <h3>Project 4</h3>
+                        <p>
+                            PLACEHOLDER FOR PROJECT 4
+                        </p>
+                    </div>
+                  
+                    <!-- project 5 -->
+                    <div class="fifth-project">
+                        <h3>project 5</h3>
+                        <p>
+                            PLACEHOLDER FOR PROJECT 5
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- end portfolio -->
         
         <!-- Photography -->
-        <section>
+        <section id="my-photography" class="photography">
+            <h2>Photography</h2>
+            <div>
+                <div class="first-photo">
+                    <h3>Oaxaca, MX</h3>
+                    <p>
+                        Agave Fields Overlooking Oaxaca City
+                    </p>
+                </div>
+                <!-- following albums are split into two opject columns -->
+                <div class="other-photos">
+                    <!-- albums 2 -->
+                    <div class="second-photo">
+                        <h3>Caucusus Mountains, GE</h2>
+                        <p>
+                            Hitchhiking and Skiing
+                        </p>
+                    </div>
+                    <!-- album 3 -->
+                    <div class="third-photo">
+                        <h3>Pamukkale Springs, TR</h2>
+                        <p>
+                            Cleopatra's Pool and Hot Springs
+                        </p>
+                    </div>
+                    <!-- album 4 -->
+                    <div class="fourth-photo">
+                        <h3>Puerto Escondido, MX</h2>
+                        <p>
+                            Fun in the Sun
+                        </p>
+                    </div>
+                    <!-- album 5 -->
+                    <div class="fifth-photo">
+                        <h3>Budludzha, BG</h2>
+                        <p>
+                            Exploration of a forgotten Communist Monument
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- end photography -->
 
         <!-- Contact -->
-        <section>
+        <section id="contact-me" class="contact">
+            <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>
+            </div>
+            <div class="contact-form">
+            <h3>Leave a Message</h2>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Name" />
+            
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+            
+                <button type="submit">Send</button>
+          </form>
+            </div>
         </section>
+        <!-- end contact -->
 
+        <!-- footer -->
+        <footer>
+            <h2>Crafted With Love by Ambrose Wilkinson</h2>
+        </footer>
+        <!-- end footer -->
     </body>
-
-    <footer>
-    </footer>
+</html>

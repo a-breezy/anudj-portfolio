@@ -304,7 +304,13 @@ section {
     border-top: var(--div-top-border);
 }
 
-.contact-photo {
+.contact-info {
+    border: 3px solid var(--primary-color);
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+/* .contact-photo {
     justify-content: center;
     border: 5px solid var(--primary-color);
     background-image: url("../images/staircase.jpg");
@@ -312,13 +318,49 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     padding: 20%;
-}
+} */
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    border: none;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+  
+  .contact-form button:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+    color: white;
+  }
 /* CONTACT STYLE ENDS */
 
 
 /* FOOTER STYLE */
 footer {
     border-top: var(--div-top-border);
+    margin-top: 5px;
     font-family: Monaco;
 }
 /* FOOTER STYLE ENDS*/

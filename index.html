@@ -16,16 +16,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about-me">About</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#my-portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#photography">Photography</a>
+                        <a href="#my-photography">Photography</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact-me">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -42,7 +42,7 @@
         <!-- end hero -->
         
         <!-- about -->
-        <section id="about" class="about">
+        <section id="about-me" class="about">
             <div class="flex-row">               
                 <div class="profile-pic">
                     <img src="./assets/images/polaroid-profile.JPG" alt="Picture of Ambrose on a polaroid photo." />
@@ -59,7 +59,7 @@
         <!-- end about -->
         
         <!-- portfolio -->
-        <section id="portfolio" class="portfolio">
+        <section id="my-portfolio" class="portfolio">
             <h2>Web Design/Development</h2>
             
             <!-- first project stretches the screen width -->
@@ -115,7 +115,7 @@
         <!-- end portfolio -->
         
         <!-- Photography -->
-        <section id="photography" class="photography">
+        <section id="my-photography" class="photography">
             <h2>Photography</h2>
             <div>
                 <div class="first-photo">
@@ -160,19 +160,29 @@
         <!-- end photography -->
 
         <!-- Contact -->
-        <section id="contact" class="contact">
+        <section id="contact-me" class="contact">
             <div class="contact-info">
             <h2>Contact Me</h2>
+            <p>
             </div>
             <div class="contact-form">
-            <h2>Leave a Message</h2>
+            <h3>Leave a Message</h2>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Name" />
+            
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+            
+                <button type="submit">Send</button>
+          </form>
             </div>
         </section>
         <!-- end contact -->
 
         <!-- footer -->
         <footer>
-            <h2>Crafted by Ambrose Wilkinson</h2>
+            <h2>Crafted With Love by Ambrose Wilkinson</h2>
         </footer>
         <!-- end footer -->
     </body>

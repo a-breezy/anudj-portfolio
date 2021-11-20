@@ -1,153 +1,176 @@
 /* GET RID OF BORDERS WHEN  */
 
+
 /* UTILITY STYLE */
+
 :root {
-  --primary-color: #7a7a7a;
-  --secondary-color: rgba(122, 122, 122, 0.5);
-  --tertiary-color: rgb(76, 82, 109, 0.75);
-  --div-top-border: 5px double var(--primary-color);
+    --primary-color: #7a7a7a;
+    --secondary-color: rgba(122, 122, 122, 0.5);
+    --tertiary-color: rgb(76, 82, 109, 0.75);
+    --div-top-border: 5px double var(--primary-color);
 }
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  color: var(--primary-color);
-  font-family: Courier, Monospace, Verdana;
-  text-align: center;
+    color: var(--primary-color);
+    font-family: Courier, Monospace, Verdana;
+    text-align: center;
 }
 
 .flex-row {
-  display: flex;
+    display: flex;
 }
 
 h3,
 p {
-  background-color: rgb(240, 248, 255, 0.75);
-  margin: 2px;
-  border-radius: 5px;
+    background-color: rgb(240, 248, 255, 0.75);
+    margin: 2px;
+    border-radius: 5px;
 }
 
 h2 {
-  padding-bottom: 1vw;
+    padding-bottom: 1vw;
 }
 
 a {
-  text-decoration: none;
-  color: var(--tertiary-color);
+    text-decoration: none;
+    color: var(--tertiary-color);
 }
+
+
 /* UTILITIES STYLE ENDS */
 
+
 /* HEADER STYLE */
+
 header {
-  padding: 20px 20px;
-  top: 0;
-  background-color: #faebd7;
-  background-image: url(../images/mexico-city.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: sticky;
-  position: -webkit-sticky;
-  z-index: 100;
+    padding: 20px 20px;
+    top: 0;
+    background-color: #faebd7;
+    background-image: url(../images/mexico-city.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 100;
 }
 
 header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  margin: 20px;
-  color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 36px;
+    margin: 20px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 header nav {
-  display: flex;
-  align-self: center;
-  margin: 20px 20px;
+    display: flex;
+    align-self: center;
+    margin: 20px 20px;
 }
 
 header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
-  padding: 0 15px 0 15px;
-  font-size: 1.5vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 0 15px 0 15px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
+
+
 /* HEADER STYLE ENDS */
 
+
 /* STYLE ALL SECTIONS */
+
 section {
-  padding: 50px;
+    padding: 50px;
 }
+
+
 /* END SECTION STYLING */
 
+
 /* HERO STYLE */
+
 .hero {
-  background-image: url(../images/mexico-city.jpg);
-  background-size: cover;
-  justify-content: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  height: 500px;
+    background-image: url(../images/mexico-city.jpg);
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 500px;
 }
+
 .hero p {
-  background-color: rgb(240, 248, 255, 0.5);
-  margin: 20px 5px 0 5px;
-  padding: 20px;
-  border: 2px solid var(--tertiary-color);
-  border-radius: 5px;
+    background-color: rgb(240, 248, 255, 0.5);
+    margin: 20px 5px 0 5px;
+    padding: 20px;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 5px;
 }
+
+
 /* HERO STYLE ENDS */
 
+
 /* ABOUT STYLE */
+
 .about {
-  border-top: var(--div-top-border);
+    border-top: var(--div-top-border);
 }
 
 .profile-pic img {
-  max-width: 40vw;
-  margin-top: 5px;
-  margin-right: 5px;
+    max-width: 40vw;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .profile-desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  border: 5px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 5px solid var(--primary-color);
 }
 
 .about p {
-  width: 91%;
-  padding-bottom: 50px;
+    width: 91%;
+    padding-bottom: 50px;
 }
+
+
 /* ABOUT STYLE ENDS */
 
+
 /* PORTFOLIO STYLE */
+
 .portfolio {
-  margin: var(--div-margin);
-  border-top: var(--div-top-border);
-  border-bottom: var(--div-bottom-border);
+    margin: var(--div-margin);
+    border-top: var(--div-top-border);
+    border-bottom: var(--div-bottom-border);
 }
 
 .portfolio p,
 .portfolio h3 {
-  padding: 5%;
+    padding: 5%;
 }
 
 .first-project,
@@ -155,18 +178,18 @@ section {
 .third-project,
 .fourth-project,
 .fifth-project {
-  border: 5px solid var(--primary-color);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: space-around;
-  align-items: center;
-  justify-content: center;
-  height: 25vw;
-  width: 45%;
-  margin: 5px;
+    border: 5px solid var(--primary-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    width: 45%;
+    margin: 5px;
 }
 
 .first-project:hover,
@@ -174,84 +197,96 @@ section {
 .third-project:hover,
 .fourth-project:hover,
 .fifth-project:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .first-project {
-  background-image: url(../images/run-buddy.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: space-around;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50vw;
+    background-image: url(../images/run-buddy.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vw;
 }
 
 .other-projects {
-  margin: 1%;
-  display: flex;
-  flex-basis: 50%;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
+    margin: 1%;
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .second-project {
-  background-image: url("../images/horiseon-sample.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 80%;
-  width: 40vw;
+    background-image: url("../images/horiseon-sample.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: 50%;
+    width: 40vw;
 }
 
 .third-project {
-  background-image: url("../images/password-generator-sample.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 80%;
-  width: 40vw;
+    background-image: url("../images/password-generator-sample.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: 50%;
+    width: 40vw;
 }
 
 .fourth-project {
-  background-image: url("../images/cappadocia.jpg");
-  background-size: 100%;
+    background-image: url("../images/letsEat_homepage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: 50%;
+    width: 40vw;
 }
 
 .fifth-project {
-  background-image: url("../images/tibilisi-market.jpg");
-  background-size: 100%;
+    background-image: url("../images/tibilisi-market.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 80%;
+    width: 40vw;
 }
+
+
 /* PORTFOLIO STYLE ENDS */
 
+
 /* PHOTOGRAPHY STYLE */
+
 .photography {
-  border-top: var(--div-top-border);
+    border-top: var(--div-top-border);
 }
 
 .second-photo,
 .third-photo,
 .fourth-photo,
 .fifth-photo {
-  border: 3px solid var(--primary-color);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: space-around;
-  align-items: center;
-  justify-content: center;
-  height: 25vw;
-  width: 45%;
-  margin: 5px;
+    border: 3px solid var(--primary-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    width: 45%;
+    margin: 5px;
 }
 
 .first-photo:hover,
@@ -259,76 +294,81 @@ section {
 .third-photo:hover,
 .fourth-photo:hover,
 .fifth-photo:hover {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .photography h3,
 .photography p {
-  padding: 3%;
+    padding: 3%;
 }
 
 .first-photo {
-  border: 3px solid var(--primary-color);
-  background-image: url("../images/oaxaca-agave.jpg");
-  background-size: 105% 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 50vw;
+    border: 3px solid var(--primary-color);
+    background-image: url("../images/oaxaca-agave.jpg");
+    background-size: 105% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vw;
 }
 
 .other-photos {
-  margin: 1%;
-  display: flex;
-  flex-basis: 50%;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
+    margin: 1%;
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .second-photo {
-  background-image: url("../images/mountains.jpeg");
-  background-size: 100%;
+    background-image: url("../images/mountains.jpeg");
+    background-size: 100%;
 }
 
 .third-photo {
-  background-image: url("../images/great-heights.jpg");
-  background-size: 100%;
+    background-image: url("../images/great-heights.jpg");
+    background-size: 100%;
 }
 
 .fourth-photo {
-  background-image: url("../images/pe-sunset.jpg");
-  background-size: 100%;
+    background-image: url("../images/pe-sunset.jpg");
+    background-size: 100%;
 }
 
 .fifth-photo {
-  background-image: url("../images/buzlugzah.jpg");
-  background-size: 100%;
+    background-image: url("../images/buzlugzah.jpg");
+    background-size: 100%;
 }
+
+
 /* PHOTOGRAPHY STYLE ENDS */
 
+
 /* CONTACT STYLE */
+
 .contact {
-  margin: 10px 0 10px 0;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  background-attachment: fixed;
-  background-position: 80%;
-  border-top: var(--div-top-border);
+    margin: 10px 0 10px 0;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    border-top: var(--div-top-border);
 }
 
 .contact-info {
-  border: 3px solid var(--primary-color);
-  margin-right: 20%;
-  margin-top: 10%;
+    border: 3px solid var(--primary-color);
+    margin-right: 20%;
+    margin-top: 10%;
 }
+
 
 /* .contact-photo {
     justify-content: center;
@@ -342,170 +382,168 @@ section {
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  background-color: rgba(255, 255, 255, 1);
-  outline: none;
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
 .contact-form button {
-  width: 100%;
-  border: none;
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 15px 0;
-  font-size: 16px;
-  border-radius: 10px;
-  margin-left: 5%;
+    width: 100%;
+    border: none;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 5%;
 }
 
 .contact-form button:hover {
-  color: var(--primary-color);
-  background: var(--tertiary-color);
-  color: white;
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+    color: white;
 }
+
+
 /* CONTACT STYLE ENDS */
 
+
 /* FOOTER STYLE */
+
 footer {
-  border-top: var(--div-top-border);
-  margin-top: 5px;
-  font-family: Monaco;
+    border-top: var(--div-top-border);
+    margin-top: 5px;
+    font-family: Monaco;
 }
+
+
 /* FOOTER STYLE ENDS*/
 
+
 /* MEDIA QUERY SMALLER DESKTOP - 980PX */
+
 @media screen and (max-width: 980px) {
-  header {
-    flex-direction: column;
-  }
-
-  header a {
-    font-size: 1em;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-  .hero h2 {
-    color: rgba(245, 239, 239, 0.9);
-  }
+    header {
+        flex-direction: column;
+    }
+    header a {
+        font-size: 1em;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .hero h2 {
+        color: rgba(245, 239, 239, 0.9);
+    }
 }
+
+
 /* END MEDIA QUERY */
 
+
 /* MEDIA QUERY FOR MOBILE - 768PX AND 575PX */
+
 @media screen and (max-width: 768px) {
-  header h2 {
-    font-size: 1em;
-  }
-
-  p {
-    font-size: 1.2em;
-  }
-
-  .portfolio h3,
-  .portfolio p,
-  .photography h3,
-  .photography h3 {
-    padding: 0;
-  }
+    header h2 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    .portfolio h3,
+    .portfolio p,
+    .photography h3,
+    .photography h3 {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 575px) {
-  p {
-    font-size: 14px;
-  }
-
-  .hero h2 {
-    font-size: 36px;
-    margin: 20px;
-    color: rgba(245, 239, 239, 0.9);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-
-  .hero p {
-    background-color: rgb(240, 248, 255, 0.75);
-    margin: 20px 5px 0 5px;
-    padding: 20px;
-    border: 2px solid var(--tertiary-color);
-    border-radius: 5px;
-  }
-
-  .profile-pic {
-    max-width: 100%;
-  }
-
-  .profile-desc {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .other-projects {
-    margin: 1%;
-    display: flex;
-    flex-basis: 100%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
-    justify-content: center;
-  }
-
-  .other-projects h3 {
-    font-size: 16px;
-  }
-
-  .first-project,
-  .second-project,
-  .third-project,
-  .fourth-project,
-  .fifth-project {
-    border: 1px solid var(--primary-color);
-    height: 40vw;
-    width: 100%;
-    margin: 5px;
-  }
-
-  .other-photos {
-    margin: 1%;
-    display: flex;
-    flex-basis: 100%;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
-    justify-content: center;
-  }
-
-  .other-photos h3 {
-    font-size: 16px;
-  }
-
-  .second-photo,
-  .third-photo,
-  .fourth-photo,
-  .fifth-photo {
-    border: 1px solid var(--primary-color);
-    height: 40vw;
-    width: 100%;
-    margin: 5px;
-  }
+    p {
+        font-size: 14px;
+    }
+    .hero h2 {
+        font-size: 36px;
+        margin: 20px;
+        color: rgba(245, 239, 239, 0.9);
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    .hero p {
+        background-color: rgb(240, 248, 255, 0.75);
+        margin: 20px 5px 0 5px;
+        padding: 20px;
+        border: 2px solid var(--tertiary-color);
+        border-radius: 5px;
+    }
+    .profile-pic {
+        max-width: 100%;
+    }
+    .profile-desc {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .other-projects {
+        margin: 1%;
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+    }
+    .other-projects h3 {
+        font-size: 16px;
+    }
+    .first-project,
+    .second-project,
+    .third-project,
+    .fourth-project,
+    .fifth-project {
+        border: 1px solid var(--primary-color);
+        height: 40vw;
+        width: 100%;
+        margin: 5px;
+    }
+    .other-photos {
+        margin: 1%;
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+    }
+    .other-photos h3 {
+        font-size: 16px;
+    }
+    .second-photo,
+    .third-photo,
+    .fourth-photo,
+    .fifth-photo {
+        border: 1px solid var(--primary-color);
+        height: 40vw;
+        width: 100%;
+        margin: 5px;
+    }
 }
+
+
 /* END MEDIA QUERY */

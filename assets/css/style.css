@@ -253,11 +253,11 @@ section {
 }
 
 .fifth-project {
-    background-image: url("../images/tibilisi-market.jpg");
+    background-image: url("../images/moodrng.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-    background-size: 80%;
+    background-position: right center;
+    background-size: 60%;
     width: 40vw;
 }
 
